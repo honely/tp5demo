@@ -1,0 +1,1199 @@
+---------------------------------------------------------------
+[ 2019-09-23T09:09:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.admin.com/admin/index/index.html [运行时间：0.462000s][吞吐率：2.16req/s] [内存消耗：1,128.22kb] [文件加载：36]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\houtai\xiaowu\xiaowu\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-23T09:09:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/login.html
+[ info ] www.admin.com/admin/login/login.html [运行时间：0.124200s][吞吐率：8.05req/s] [内存消耗：1,105.74kb] [文件加载：35]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/login_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\houtai\xiaowu\xiaowu\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-23T09:09:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/__PUBLIC/static/admin.css
+[ info ] www.admin.com/admin/login/__PUBLIC/static/admin.css [运行时间：0.069000s][吞吐率：14.49req/s] [内存消耗：1,091.63kb] [文件加载：37]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => '__PUBLIC',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/login/login.html',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/__PUBLIC/static/admin_css' => '',
+  'static' => 'admin.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-23T09:09:34+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/login.html
+[ info ] www.admin.com/admin/login/login.html [运行时间：0.179000s][吞吐率：5.59req/s] [内存消耗：1,750.83kb] [文件加载：43]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.admin.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/login_html' => '',
+  'username' => '17691074991',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\houtai\xiaowu\xiaowu\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.072000s ] mysql:host=127.0.0.1;port=3306;dbname=superseller;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_admin` [ RunTime:0.032000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_admin` WHERE  (  (  ad_phone = '17691074991' or  ad_email  = '17691074991' ) and ad_isable = 1  ) LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-09-23T09:09:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.admin.com/admin/index/index.html [运行时间：0.317000s][吞吐率：3.15req/s] [内存消耗：1,835.38kb] [文件加载：42]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\houtai\xiaowu\xiaowu\public/../application/admin\view\index\index.html [ array (
+  0 => 'branchWeb',
+  1 => 'admin',
+  2 => 'menuList',
+  3 => 'siteName',
+  4 => 'ad_role',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=superseller;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_admin` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_admin` `admin` INNER JOIN `super_role` `role` ON `admin`.`ad_role`=`role`.`r_id` WHERE  `admin`.`ad_id` = 1 LIMIT 1 [ RunTime:0.054000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_menu` [ RunTime:0.035000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 22 LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 23 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 60 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 61 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 62 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 29 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 30 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 42 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 43 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 44 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 31 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 83 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 108 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 109 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 110 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 10 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 11 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 114 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 115 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 116 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 87 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 119 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 120 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 121 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 19 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 122 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 123 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 124 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 70 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 71 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 72 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 4 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 76 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 77 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 78 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 144 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 145 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 169 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 164 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 165 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 166 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 167 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 168 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_admin` INNER JOIN `super_role` `super_role` ON `super_admin`.`ad_role`=`super_role`.`r_id` WHERE  `ad_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_branch` [ RunTime:0.037000s ]
+[ sql ] [ SQL ] SELECT `b_prex` FROM `super_branch` WHERE  `b_id` = 22 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_setinfo` [ RunTime:0.043000s ]
+[ sql ] [ SQL ] SELECT `s_value` FROM `super_setinfo` WHERE  `s_key` = 'webname' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-09-23T09:09:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/welcome.html
+[ info ] www.admin.com/admin/index/welcome.html [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,081.66kb] [文件加载：34]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/welcome_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\houtai\xiaowu\xiaowu\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-23T09:09:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/admin/admin.html
+[ info ] www.admin.com/admin/admin/admin.html [运行时间：0.207000s][吞吐率：4.83req/s] [内存消耗：1,858.85kb] [文件加载：42]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/admin_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\houtai\xiaowu\xiaowu\public/../application/admin\view\admin\admin.html [ array (
+  0 => 'prov',
+  1 => 'roleInfo',
+  2 => 'display',
+  3 => 'none',
+  4 => 'count',
+  5 => 'ad_role',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=superseller;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_province` [ RunTime:0.044000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_province` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_role` [ RunTime:0.018000s ]
+[ sql ] [ SQL ] SELECT `r_id`,`r_name` FROM `super_role` WHERE  (  r_id != 1 ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_admin` [ RunTime:0.018000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `super_admin` WHERE  (   1 = 1  )  AND `ad_isable` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `super_admin` WHERE  (   1 = 1  )  AND `ad_isable` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-09-23T09:09:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/admin/adminData/?page=1&limit=20
+[ info ] www.admin.com/admin/admin/adminData/?page=1&limit=20 [运行时间：0.081000s][吞吐率：12.35req/s] [内存消耗：1,814.55kb] [文件加载：41]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'adminData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/admin/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/adminData/' => '',
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->adminData[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=superseller;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_admin` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `super_admin` INNER JOIN `super_province` `super_province` ON `super_province`.`p_id`=`super_admin`.`ad_p_id` INNER JOIN `super_city` `super_city` ON `super_city`.`c_id`=`super_admin`.`ad_c_id` INNER JOIN `super_role` `super_role` ON `super_role`.`r_id`=`super_admin`.`ad_role` WHERE  (   1 = 1  ) LIMIT 1 [ RunTime:0.022000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_admin` INNER JOIN `super_province` `super_province` ON `super_province`.`p_id`=`super_admin`.`ad_p_id` INNER JOIN `super_city` `super_city` ON `super_city`.`c_id`=`super_admin`.`ad_c_id` INNER JOIN `super_role` `super_role` ON `super_role`.`r_id`=`super_admin`.`ad_role` WHERE  (   1 = 1  ) ORDER BY ad_id desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-09-23T09:09:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/admin/role.html
+[ info ] www.admin.com/admin/admin/role.html [运行时间：0.097000s][吞吐率：10.31req/s] [内存消耗：1,848.60kb] [文件加载：42]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/role_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->role[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\houtai\xiaowu\xiaowu\public/../application/admin\view\admin\role.html [ array (
+  0 => 'count',
+  1 => 'page',
+  2 => 'limit',
+  3 => 'role',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=superseller;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_role` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `super_role` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_role` ORDER BY r_id desc LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_admin` [ RunTime:0.019000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `super_admin` WHERE  `ad_role` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-09-23T09:09:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/admin/admin.html
+[ info ] www.admin.com/admin/admin/admin.html [运行时间：0.083000s][吞吐率：12.05req/s] [内存消耗：1,858.85kb] [文件加载：42]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/admin_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\houtai\xiaowu\xiaowu\public/../application/admin\view\admin\admin.html [ array (
+  0 => 'prov',
+  1 => 'roleInfo',
+  2 => 'display',
+  3 => 'none',
+  4 => 'count',
+  5 => 'ad_role',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=superseller;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_province` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_province` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_role` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `r_id`,`r_name` FROM `super_role` WHERE  (  r_id != 1 ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_admin` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `super_admin` WHERE  (   1 = 1  )  AND `ad_isable` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `super_admin` WHERE  (   1 = 1  )  AND `ad_isable` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-09-23T09:09:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/admin/adminData/?page=1&limit=20
+[ info ] www.admin.com/admin/admin/adminData/?page=1&limit=20 [运行时间：0.034000s][吞吐率：29.41req/s] [内存消耗：1,814.55kb] [文件加载：41]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'adminData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/admin/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/adminData/' => '',
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->adminData[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=superseller;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_admin` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `super_admin` INNER JOIN `super_province` `super_province` ON `super_province`.`p_id`=`super_admin`.`ad_p_id` INNER JOIN `super_city` `super_city` ON `super_city`.`c_id`=`super_admin`.`ad_c_id` INNER JOIN `super_role` `super_role` ON `super_role`.`r_id`=`super_admin`.`ad_role` WHERE  (   1 = 1  ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_admin` INNER JOIN `super_province` `super_province` ON `super_province`.`p_id`=`super_admin`.`ad_p_id` INNER JOIN `super_city` `super_city` ON `super_city`.`c_id`=`super_admin`.`ad_c_id` INNER JOIN `super_role` `super_role` ON `super_role`.`r_id`=`super_admin`.`ad_role` WHERE  (   1 = 1  ) ORDER BY ad_id desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-09-23T09:09:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/setinfo/setlist.html
+[ info ] www.admin.com/admin/setinfo/setlist.html [运行时间：0.066000s][吞吐率：15.15req/s] [内存消耗：1,241.19kb] [文件加载：35]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setinfo',
+    2 => 'setlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/setinfo/setlist_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Setinfo->setlist[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Setinfo.php ]
+[ info ] [ VIEW ] E:\houtai\xiaowu\xiaowu\public/../application/admin\view\setinfo\setlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-23T09:09:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/setinfo/setData/?page=1&limit=20
+[ info ] www.admin.com/admin/setinfo/setData/?page=1&limit=20 [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：1,829.80kb] [文件加载：41]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setinfo',
+    2 => 'setData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/setinfo/setlist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/setinfo/setData/' => '',
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Setinfo->setData[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Setinfo.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=superseller;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_setinfo` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `super_setinfo` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_setinfo` WHERE  (  s_type = 0 ) ORDER BY s_id desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_admin` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `ad_id`,`ad_realname` FROM `super_admin` WHERE  `ad_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `ad_id`,`ad_realname` FROM `super_admin` WHERE  `ad_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-09-23T09:09:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/admin/menu.html
+[ info ] www.admin.com/admin/admin/menu.html [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：1,890.56kb] [文件加载：42]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/menu_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->menu[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\houtai\xiaowu\xiaowu\public/../application/admin\view\admin\menu.html [ array (
+  0 => 'm_fid',
+  1 => 'menuList',
+  2 => 'count',
+  3 => 'page',
+  4 => 'limit',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=superseller;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_menu` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `super_menu` WHERE  (   m_fid = 0 and m_type = 1  ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  (   m_fid = 0 and m_type = 1  ) ORDER BY m_sort desc LIMIT 0,20 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 14  AND `m_type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 22  AND `m_type` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 29  AND `m_type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 31  AND `m_type` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 10  AND `m_type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 1  AND `m_type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 144  AND `m_type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 152  AND `m_type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 159  AND `m_type` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 161  AND `m_type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 164  AND `m_type` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 167  AND `m_type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-09-23T09:09:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/setinfo/typelist.html
+[ info ] www.admin.com/admin/setinfo/typelist.html [运行时间：0.061000s][吞吐率：16.39req/s] [内存消耗：1,242.32kb] [文件加载：35]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setinfo',
+    2 => 'typelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/setinfo/typelist_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Setinfo->typeList[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Setinfo.php ]
+[ info ] [ VIEW ] E:\houtai\xiaowu\xiaowu\public/../application/admin\view\setinfo\typelist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-23T09:09:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/setinfo/userTip/?page=1&limit=20
+[ info ] www.admin.com/admin/setinfo/userTip/?page=1&limit=20 [运行时间：0.081000s][吞吐率：12.35req/s] [内存消耗：1,829.16kb] [文件加载：41]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setinfo',
+    2 => 'userTip',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/setinfo/typelist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/setinfo/userTip/' => '',
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Setinfo->userTip[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Setinfo.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=superseller;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_type` [ RunTime:0.056000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `super_type` WHERE  `type_sort` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_type` WHERE  `type_sort` = 1 ORDER BY type_isable asc,type_order desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-09-23T09:09:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/admin/menu.html
+[ info ] www.admin.com/admin/admin/menu.html [运行时间：0.065000s][吞吐率：15.38req/s] [内存消耗：1,890.56kb] [文件加载：42]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/menu_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->menu[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\houtai\xiaowu\xiaowu\public/../application/admin\view\admin\menu.html [ array (
+  0 => 'm_fid',
+  1 => 'menuList',
+  2 => 'count',
+  3 => 'page',
+  4 => 'limit',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=superseller;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_menu` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `super_menu` WHERE  (   m_fid = 0 and m_type = 1  ) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  (   m_fid = 0 and m_type = 1  ) ORDER BY m_sort desc LIMIT 0,20 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 14  AND `m_type` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 22  AND `m_type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 29  AND `m_type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 31  AND `m_type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 10  AND `m_type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 1  AND `m_type` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 144  AND `m_type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 152  AND `m_type` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 159  AND `m_type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 161  AND `m_type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 164  AND `m_type` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_fid` = 167  AND `m_type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-09-23T09:09:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/setinfo/setlist.html
+[ info ] www.admin.com/admin/setinfo/setlist.html [运行时间：0.041000s][吞吐率：24.39req/s] [内存消耗：1,241.19kb] [文件加载：35]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setinfo',
+    2 => 'setlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/setinfo/setlist_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Setinfo->setlist[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Setinfo.php ]
+[ info ] [ VIEW ] E:\houtai\xiaowu\xiaowu\public/../application/admin\view\setinfo\setlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-23T09:09:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/setinfo/setData/?page=1&limit=20
+[ info ] www.admin.com/admin/setinfo/setData/?page=1&limit=20 [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：1,829.80kb] [文件加载：41]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setinfo',
+    2 => 'setData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/setinfo/setlist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/setinfo/setData/' => '',
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Setinfo->setData[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Setinfo.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=superseller;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_setinfo` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `super_setinfo` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_setinfo` WHERE  (  s_type = 0 ) ORDER BY s_id desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_admin` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `ad_id`,`ad_realname` FROM `super_admin` WHERE  `ad_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `ad_id`,`ad_realname` FROM `super_admin` WHERE  `ad_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-09-23T09:09:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/banner/banner.html
+[ info ] www.admin.com/admin/banner/banner.html [运行时间：0.082000s][吞吐率：12.20req/s] [内存消耗：1,220.84kb] [文件加载：35]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'banner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/banner/banner_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Banner->banner[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Banner.php ]
+[ info ] [ VIEW ] E:\houtai\xiaowu\xiaowu\public/../application/admin\view\banner\banner.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-23T09:09:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/banner/bannerPc/?page=1&limit=15
+[ info ] www.admin.com/admin/banner/bannerPc/?page=1&limit=15 [运行时间：0.070000s][吞吐率：14.29req/s] [内存消耗：1,810.59kb] [文件加载：41]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'bannerPc',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/banner/banner.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/banner/bannerPc/' => '',
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Banner->bannerPC[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=superseller;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_banner` [ RunTime:0.036000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `super_banner` INNER JOIN `super_admin` `super_admin` ON `super_banner`.`ba_admin`=`super_admin`.`ad_id` WHERE  (   1 = 1  ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `super_banner`.*,`super_admin`.`ad_realname` FROM `super_banner` INNER JOIN `super_admin` `super_admin` ON `super_banner`.`ba_admin`=`super_admin`.`ad_id` WHERE  (   1 = 1  ) ORDER BY ba_isable,ba_branch desc ,ba_order desc ,ba_createtime desc LIMIT 0,15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-09-23T09:09:45+08:00 ] 127.0.0.1 127.0.0.1 GET /..%7B%7B%20d.ba_img%7D%7D
+[ info ] www.admin.com/..%7B%7B%20d.ba_img%7D%7D [运行时间：0.013000s][吞吐率：76.92req/s] [内存消耗：817.73kb] [文件加载：29]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '..{{ d.ba_img}}',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/banner/banner.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/__{{_d_ba_img}}' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-23T09:09:46+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/banner/20190909/f669d4c860dfc946031d5321930fc529.png
+[ info ] www.admin.com/uploads/banner/20190909/f669d4c860dfc946031d5321930fc529.png [运行时间：0.040000s][吞吐率：25.00req/s] [内存消耗：818.23kb] [文件加载：29]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'banner',
+    2 => '20190909',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/banner/banner.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/banner/20190909/f669d4c860dfc946031d5321930fc529_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-23T09:09:47+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/banner/20190909/e92d2d80a7eae47d42c6526f0475b91f.png
+[ info ] www.admin.com/uploads/banner/20190909/e92d2d80a7eae47d42c6526f0475b91f.png [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：818.23kb] [文件加载：29]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'banner',
+    2 => '20190909',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/banner/banner.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/banner/20190909/e92d2d80a7eae47d42c6526f0475b91f_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-23T09:09:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.admin.com/admin/index/index.html [运行时间：0.157000s][吞吐率：6.37req/s] [内存消耗：1,835.58kb] [文件加载：42]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\houtai\xiaowu\xiaowu\public/../application/admin\view\index\index.html [ array (
+  0 => 'branchWeb',
+  1 => 'admin',
+  2 => 'menuList',
+  3 => 'siteName',
+  4 => 'ad_role',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.054000s ] mysql:host=127.0.0.1;port=3306;dbname=superseller;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_admin` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_admin` `admin` INNER JOIN `super_role` `role` ON `admin`.`ad_role`=`role`.`r_id` WHERE  `admin`.`ad_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_menu` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 22 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 23 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 60 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 61 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 62 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 29 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 30 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 42 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 43 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 44 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 31 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 83 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 108 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 109 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 110 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 10 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 11 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 114 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 115 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 116 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 87 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 119 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 120 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 121 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 19 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 122 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 123 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 124 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 70 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 71 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 72 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 4 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 76 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 77 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 78 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 144 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 145 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 169 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 164 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 165 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 166 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 167 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_menu` WHERE  `m_id` = 168 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `super_admin` INNER JOIN `super_role` `super_role` ON `super_admin`.`ad_role`=`super_role`.`r_id` WHERE  `ad_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_branch` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `b_prex` FROM `super_branch` WHERE  `b_id` = 22 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `super_setinfo` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `s_value` FROM `super_setinfo` WHERE  `s_key` = 'webname' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-09-23T09:09:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/welcome.html
+[ info ] www.admin.com/admin/index/welcome.html [运行时间：0.018000s][吞吐率：55.56req/s] [内存消耗：1,081.66kb] [文件加载：34]
+[ info ] [ LANG ] E:\houtai\xiaowu\xiaowu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=i8cmertefaqc4eq241tc45o3n5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.admin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/welcome_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\houtai\xiaowu\xiaowu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\houtai\xiaowu\xiaowu\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
